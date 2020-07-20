@@ -1,0 +1,6 @@
+.intro__two-columns {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+}

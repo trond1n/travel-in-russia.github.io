@@ -1,0 +1,35 @@
+@import url('../../fonts/InterWeb/inter.css');
+@import url('../places/__item/places__item.css');
+@import url('../places/__image/places__image.css');
+@import url('../places/_margin/places_margin.css');
+@import url('../places/__paragraph/places__paragraph.css');
+@import url('../places/__title/places__title.css');
+@import url('../places/__url-heading/places__url-heading.css');
+@import url('../places/__url/places__url.css');
+@import url('../places/__website/places__website.css');
+.places {
+    max-width: 984px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .places {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 90.7%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .places {
+        width: 93.8%;
+    }
+}
+ @media screen and (max-width: 425px) {
+    .places {
+        width: 100%;
+    }
+} 

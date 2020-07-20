@@ -1,0 +1,22 @@
+.video_margin {
+    margin: auto;
+    margin-top: 9%;
+}
+
+@media screen and (max-width: 1024px) {
+    .video_margin {
+        margin-top: 10.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .video_margin {
+        margin-top: 11.6%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .video_margin {
+        margin-top: 14%;
+    }
+}

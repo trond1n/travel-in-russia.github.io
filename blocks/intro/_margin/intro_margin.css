@@ -1,0 +1,26 @@
+.intro_margin {
+    margin: auto;
+    margin-top: 6.9%;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro_margin {
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro_margin {
+        margin-top: 10.7%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .intro_margin {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro_margin {
+        margin-top: 20%;
+    }
+}

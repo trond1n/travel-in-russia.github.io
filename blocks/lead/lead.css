@@ -1,0 +1,27 @@
+@import url('../../fonts/InterWeb/inter.css');
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__caption/lead__caption.css');
+@import url('../lead/__figure/lead__figure.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/_margin/lead_margin.css');
+.lead {
+    max-width: 985px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 90.7%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.lead_margin {
+    margin: auto;
+    margin-top: 4.8%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead_margin {
+        margin-top: 5.7%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead_margin {
+        margin-top: 7.5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lead_margin {
+        margin-top: 13.8%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead_margin {
+        margin-top: 16%;
+    }
+}

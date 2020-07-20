@@ -1,0 +1,23 @@
+.content__title_theme_line-height {
+    line-height: 78px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content__title_theme_line-height {
+        line-height: 65px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__title_theme_line-height {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content__title_theme_line-height {
+        line-height: 35px;
+        min-width: 100%;
+    }
+}

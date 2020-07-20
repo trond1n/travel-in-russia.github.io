@@ -1,0 +1,10 @@
+.intro__text-subline {
+    margin: 0;
+    margin-left: 18px;
+    max-width: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

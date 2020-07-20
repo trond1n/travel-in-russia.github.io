@@ -1,0 +1,34 @@
+@import url('../../fonts/InterWeb/inter.css');
+@import url('../comments/__author/comments__author.css');
+@import url('../comments/__container/comments__container.css');
+@import url('../comments/__image/comments__image.css');
+@import url('../comments/__item/comments__item.css');
+@import url('../comments/_margin/comments_margin.css');
+@import url('../comments/__qoute/comments__qoute.css');
+@import url('../content-title/_theme/_line-height/content__title_theme_line-height.css');
+.comments {
+    max-width: 1184px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .comments {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .comments {
+        width: 90.7%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .comments {
+        width: 97.5%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .comments {
+        width: 90%;
+    }
+}

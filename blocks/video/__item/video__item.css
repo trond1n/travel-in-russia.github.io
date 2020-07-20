@@ -1,0 +1,68 @@
+@import url('../__item/_theme/_kamchatka/video__item_bg_kamchatka.css');
+@import url('../__item/_theme/_observatory/video__item_bg_observatory.css');
+.video__item {
+    margin: 0;
+    padding: 30px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 18px;
+    background-size: cover;
+}
+
+.video__item:last-child {
+    margin-right: 0px;
+}
+
+.video__item:hover::before {
+    border-radius: 5px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .video__item {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .video__item {
+        height: 200px;
+        width: 420px;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    .video__item:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .video__item {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .video__item {
+        width: 91.5%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .video__item {
+        padding: 16px;
+        width: 288px;
+    }
+}

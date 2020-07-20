@@ -1,0 +1,10 @@
+.header_margin {
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .header_margin {
+        margin-top: 16px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url('../content-title/_theme/_line-height/content__title_theme_line-height.css');
+.content__title {
+    margin: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    width: 800px;
+    color: #FFFFFF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .content__title {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content__title {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
